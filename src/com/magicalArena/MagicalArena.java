@@ -1,5 +1,6 @@
 package com.magicalArena;
 
+//this class starts the game between the players
 public class MagicalArena {
 	
 	private Player playerA;
