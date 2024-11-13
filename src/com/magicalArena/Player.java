@@ -11,17 +11,43 @@ public class Player {
 		this.attack = attack;
 	}
 
+	
+
 	public int getHealth() {
 		return health;
 	}
-	public int getAttack() {
-		return attack;     
+
+
+
+	public void setHealth(int health) {
+		this.health = health;
 	}
 
+
+
 	public int getStrength() {
-		
-		return strength; 
+		return strength;
 	}
+
+
+
+	public void setStrength(int strength) {
+		this.strength = strength;
+	}
+
+
+
+	public int getAttack() {
+		return attack;
+	}
+
+
+
+	public void setAttack(int attack) {
+		this.attack = attack;
+	}
+
+
 
 	public void reduceHealth(int damage) {
 		this.health = Math.max(0,this.health-damage);		
@@ -30,5 +56,7 @@ public class Player {
 	public boolean isAlive() {
 		return health > 0;
 	}
+
+	
 	
 }
